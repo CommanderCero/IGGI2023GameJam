@@ -6,9 +6,9 @@ public class SeesawController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rigidbody2d;
 
-    [SerializeField] private KeyCode left;
+    [SerializeField] private PlayerButtons left;
 
-    [SerializeField] private KeyCode right;
+    [SerializeField] private PlayerButtons right;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +18,11 @@ public class SeesawController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(left))
+        if (Input.GetKey(InputManager.GetKey(left)))
         {
             rigidbody2d.AddTorque(1);
         }
-        else if (Input.GetKey(right))
+        else if (Input.GetKey(InputManager.GetKey(right)))
         {
             rigidbody2d.AddTorque(-1);
         }
