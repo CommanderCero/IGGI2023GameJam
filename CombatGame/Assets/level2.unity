@@ -227,11 +227,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: left
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
@@ -239,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: button
-      value: 9
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688972695226, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: m_Name
@@ -296,12 +296,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1744651688288976066, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
   m_PrefabInstance: {fileID: 2027908049}
   m_PrefabAsset: {fileID: 0}
---- !u!50 &2027908051 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 1744651688288976065, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
-  m_PrefabInstance: {fileID: 2027908049}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2027908052
+--- !u!114 &2027908051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,9 +308,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody2d: {fileID: 2027908051}
-  button: 11
-  force: -1
+  rigidbody2d: {fileID: 0}
+  button: 9
+  force: 1
 --- !u!1001 &1401761845737177239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,7 +364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1401761846514892497, guid: 4b0aba809b42544a0b712b816dd4cd4f, type: 3}
       propertyPath: nextLevelName
-      value: level2
+      value: level3
       objectReference: {fileID: 0}
     - target: {fileID: 1401761846514892498, guid: 4b0aba809b42544a0b712b816dd4cd4f, type: 3}
       propertyPath: m_Name
@@ -386,7 +381,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: left
-      value: 9
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
@@ -394,7 +389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: button
@@ -473,7 +468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2d: {fileID: 1744651689770960264}
-  button: 5
+  button: 11
   force: -1
 --- !u!1001 &4025673451185350732
 PrefabInstance:
