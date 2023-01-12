@@ -53,4 +53,34 @@ public static class ColorManager
         
         return Resources.Load<Sprite>("Sprites/ball_clown_blue");
     }
+    
+    public static Sprite GetBasketBack(ColorName name)
+    {
+        if (name == ColorName.Red)
+        {
+            return Resources.Load<Sprite>("Sprites/basket_red_back");
+        } 
+        
+        if (name == ColorName.Green)
+        {
+            return Resources.Load<Sprite>("Sprites/basket_green_back");
+        }
+        
+        return Resources.Load<Sprite>("Sprites/basket_blue_back");
+    }
+    
+    public static Sprite GetBasketTop(ColorName name)
+    {
+        if (name == ColorName.Red)
+        {
+            return Resources.Load<Sprite>("Sprites/basket_red_top");
+        } 
+        
+        if (name == ColorName.Green)
+        {
+            return Resources.Load<Sprite>("Sprites/basket_green_top");
+        }
+        
+        return Resources.Load<Sprite>("Sprites/basket_blue_top");
+    }
 }

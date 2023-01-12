@@ -7,11 +7,14 @@ public class FinishLevel : MonoBehaviour
 {
     [SerializeField] private LevelManager levelManager;
     [SerializeField] private ColorName colorName;
+    [SerializeField] private SpriteRenderer top;
+    [SerializeField] private SpriteRenderer back;
     
     void Start()
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.color = ColorManager.GetKey(colorName);
+        top.sprite = ColorManager.GetBasketTop(colorName);
+        back.sprite = ColorManager.GetBasketBack(colorName);
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -23,6 +26,10 @@ public class FinishLevel : MonoBehaviour
             {
                 levelManager.DecreaseBallNum(); 
                 Destroy(col.gameObject);
+            }
+            else
+            {
+                levelManager.ResetLevel();
             }
             
         }

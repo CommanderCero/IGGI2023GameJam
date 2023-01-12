@@ -331,6 +331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   colorName: 0
+  top: {fileID: 3133646620830169089}
+  back: {fileID: 1156501851935839243}
 --- !u!68 &2409562707756347694
 EdgeCollider2D:
   m_ObjectHideFlags: 0
