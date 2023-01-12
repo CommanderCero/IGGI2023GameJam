@@ -7,6 +7,12 @@ public class FinishLevel : MonoBehaviour
 {
     [SerializeField] private LevelManager levelManager;
     [SerializeField] private ColorName colorName;
+    
+    void Start()
+    {
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.color = ColorManager.GetKey(colorName);
+    }
 
     private void OnCollisionEnter2D(Collision2D col)
     {

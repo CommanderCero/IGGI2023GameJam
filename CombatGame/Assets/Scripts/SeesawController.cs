@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SeesawController : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D rigidbody2d;
+    private Rigidbody2D rigidbody2d;
 
     [SerializeField] private PlayerButtons button;
     [SerializeField] private float force;
