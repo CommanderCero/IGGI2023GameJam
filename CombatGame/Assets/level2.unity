@@ -615,6 +615,10 @@ PrefabInstance:
       propertyPath: nextLevelName
       value: level3
       objectReference: {fileID: 0}
+    - target: {fileID: 1401761846514892497, guid: 4b0aba809b42544a0b712b816dd4cd4f, type: 3}
+      propertyPath: remainingBall
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1401761846514892498, guid: 4b0aba809b42544a0b712b816dd4cd4f, type: 3}
       propertyPath: m_Name
       value: LevelManager

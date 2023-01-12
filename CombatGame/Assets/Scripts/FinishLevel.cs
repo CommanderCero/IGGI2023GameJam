@@ -11,7 +11,8 @@ public class FinishLevel : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("ball"))
         {
-            levelManager.LoadNextLevel();
+            levelManager.DecreaseBallNum();
+            Destroy(col.gameObject);
         }
     }
 }
