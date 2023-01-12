@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private string nextLevelName;
+    [SerializeField] private GameObject successPanel;
     private int remainingBall = 0;
 
     private void Start()
@@ -18,13 +19,19 @@ public class LevelManager : MonoBehaviour
     {
         if (remainingBall == 0)
         {
-            LoadNextLevel();
+            successPanel.SetActive(true);
         }
     }
 
     public void LoadNextLevel()
     {
+        print("Load");
         SceneManager.LoadScene(nextLevelName);
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("TitleScreen");
     }
 
     public void ResetLevel()
