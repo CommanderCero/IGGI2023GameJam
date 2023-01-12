@@ -7,14 +7,17 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private string nextLevelName;
-    [SerializeField] private int remainingBall;
+    private int remainingBall = 0;
+
+    private void Start()
+    {
+    }
 
 
     private void Update()
     {
         if (remainingBall == 0)
         {
-            print("Update");
             LoadNextLevel();
         }
     }
