@@ -836,6 +836,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 871071302}
+    - target: {fileID: 331040180, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1881777512, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
       propertyPath: m_Interactable
       value: 1
@@ -1029,4 +1033,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 871071302}
+  ballType: 0
   colorName: 0

@@ -1151,4 +1151,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 871071302}
+  ballType: 1
   colorName: 0
