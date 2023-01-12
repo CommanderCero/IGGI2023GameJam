@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 1
+  button: 2
   force: -1
 --- !u!114 &871071302 stripped
 MonoBehaviour:
@@ -397,7 +397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
@@ -405,7 +405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: button
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688972695226, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: m_Name
@@ -474,8 +474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 9
-  force: 0.5
+  button: 6
+  force: -1
 --- !u!114 &1392735276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,8 +488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 0
-  force: -1
+  button: 9
+  force: 1.5
 --- !u!1 &1556398247
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 10
+  button: 6
   force: -1
 --- !u!1001 &2027908049
 PrefabInstance:
@@ -1151,5 +1151,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 871071302}
-  ballType: 1
+  ballType: 0
   colorName: 0
