@@ -21,6 +21,11 @@ public class LevelManager : MonoBehaviour
         {
             successPanel.SetActive(true);
         }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            QuitGame();
+        }
     }
 
     public void LoadNextLevel()
@@ -37,6 +42,11 @@ public class LevelManager : MonoBehaviour
     public void ResetLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit(0);
     }
 
     public void DecreaseBallNum()

@@ -15,7 +15,7 @@ public class SeesawController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(InputManager.GetKey(button)))
         {

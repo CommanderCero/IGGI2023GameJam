@@ -379,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
-      value: 0.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
@@ -517,8 +517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 6
-  force: 1
+  button: 11
+  force: 10
 --- !u!114 &664799492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,8 +531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 8
-  force: -1
+  button: 9
+  force: -10
 --- !u!1001 &681742200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -608,7 +608,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
 --- !u!114 &871071302 stripped
 MonoBehaviour:
@@ -639,7 +640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: 4
-  force: -0.5
+  force: -5
 --- !u!114 &884960707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,8 +653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 6
-  force: 0.5
+  button: 10
+  force: 5
 --- !u!114 &884960712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,8 +667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 10
-  force: -0.5
+  button: 7
+  force: -5
 --- !u!1001 &1002034629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -685,7 +686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
@@ -840,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: 3
-  force: -1
+  force: -10
 --- !u!1001 &1733655179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1049,7 +1050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 871071302}
-  ballType: 1
+  ballType: 0
   colorName: 0
 --- !u!1001 &1401761845737177239
 PrefabInstance:
@@ -1353,5 +1354,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 871071302}
-  ballType: 1
+  ballType: 0
   colorName: 1

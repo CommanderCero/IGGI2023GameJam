@@ -592,7 +592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
-      value: -1
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: 6
-  force: 1
+  force: 10
 --- !u!1001 &1401761845737177239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -753,7 +753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: force
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: right
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: 10
-  force: -1
+  force: -10
 --- !u!1001 &4025673451185350732
 PrefabInstance:
   m_ObjectHideFlags: 0
