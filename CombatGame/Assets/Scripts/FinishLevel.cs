@@ -12,7 +12,6 @@ public class FinishLevel : MonoBehaviour
     
     void Start()
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         top.sprite = ColorManager.GetBasketTop(colorName);
         back.sprite = ColorManager.GetBasketBack(colorName);
     }
