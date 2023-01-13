@@ -19,6 +19,11 @@ public class LevelManager : MonoBehaviour
     {
         if (remainingBall == 0)
         {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                LoadNextLevel();
+                
+            }
             successPanel.SetActive(true);
         }
 
@@ -26,12 +31,19 @@ public class LevelManager : MonoBehaviour
         {
             QuitGame();
         }
+        
     }
 
     public void LoadNextLevel()
     {
-        print("Load");
-        SceneManager.LoadScene(nextLevelName);
+        if (nextLevelName == "None")
+        {
+            Application.Quit(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(nextLevelName);
+        }
     }
 
     public void LoadMenu()

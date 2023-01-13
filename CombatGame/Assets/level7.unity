@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 8
+  button: 2
   force: -10
 --- !u!1 &1657794542 stripped
 GameObject:
@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04c1c4a56d05a4fc686967e5befb07b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 0
+  button: 8
   force: -10
 --- !u!1001 &2027908049
 PrefabInstance:
@@ -1287,7 +1287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688288976079, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: button
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1744651688972695226, guid: 2eb8713c58fd14cdeb93285d8e7b8422, type: 3}
       propertyPath: m_Name
@@ -1396,7 +1396,7 @@ PrefabInstance:
       objectReference: {fileID: 7917744895076426629}
     - target: {fileID: 1401761846514892497, guid: 4b0aba809b42544a0b712b816dd4cd4f, type: 3}
       propertyPath: nextLevelName
-      value: TitleScreen
+      value: None
       objectReference: {fileID: 0}
     - target: {fileID: 1401761846514892497, guid: 4b0aba809b42544a0b712b816dd4cd4f, type: 3}
       propertyPath: remainingBall
