@@ -33,7 +33,7 @@ public class BallSoundHandler : MonoBehaviour
             CollisionSfx.PlayOneShot(CollisionSfx.clip, volume);
         }
 
-        if(speed > RollingMinimumSpeed)
+        if(speed > RollingMinimumSpeed && collision.gameObject.tag != "ball")
         {
             if(fadeOutCoroutine != null)
                 StopCoroutine(fadeOutCoroutine);
@@ -44,7 +44,7 @@ public class BallSoundHandler : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         // Hardcoded check for colliding with the camera edges
-        if (collision.gameObject.GetComponent<Camera>() != null)
+        if (collision.gameObject.GetComponent<Camera>() != null && collision.gameObject.tag != "ball")
             return;
 
         float speed = collision.relativeVelocity.magnitude;
@@ -57,7 +57,7 @@ public class BallSoundHandler : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         // Hardcoded check for colliding with the camera edges
-        if (collision.gameObject.GetComponent<Camera>() != null)
+        if (collision.gameObject.GetComponent<Camera>() != null && collision.gameObject.tag != "ball")
             return;
 
        fadeOutCoroutine = StartCoroutine(FadeOutRolling());
