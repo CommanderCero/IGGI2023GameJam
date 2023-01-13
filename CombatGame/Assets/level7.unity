@@ -616,7 +616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Button: 5
   player2Button: 11
-  force: -10
+  force: -20
 --- !u!114 &877838732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Button: 3
   player2Button: 9
-  force: 10
+  force: 20
 --- !u!1001 &976308381
 PrefabInstance:
   m_ObjectHideFlags: 0
