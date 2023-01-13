@@ -821,32 +821,48 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 59612647, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
-      propertyPath: m_Interactable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 59612647, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 871071302}
-    - target: {fileID: 331040180, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881777512, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
-      propertyPath: m_Interactable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1881777512, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 871071302}
-    - target: {fileID: 537898166361311124, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
-      propertyPath: m_text
-      value: Level 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1376545849703381975, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
       propertyPath: m_Name
       value: UICanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3554820655642962729, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 871071302}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 871071302}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184762090249216856, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5695703351676613929, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
       propertyPath: m_Pivot.x
@@ -932,6 +948,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8196405846822493319, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 871071302}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 326d902636e1a41beb30fc56523e8435, type: 3}
 --- !u!1001 &8607826557477393333
