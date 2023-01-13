@@ -495,11 +495,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: a0b22a90f97f4504b90abcf096dfab34, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 549431a7833374b6389d93f58635fa37, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 84dd13b46f9aaec4c99ca8d61c4b9499, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -594,6 +594,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BackgroundMusic: {fileID: 536313943}
+  BackgroundVariants:
+  - {fileID: 8300000, guid: 84dd13b46f9aaec4c99ca8d61c4b9499, type: 3}
+  - {fileID: 8300000, guid: f1474980bb1c8c04dabdd33d5d6a512b, type: 3}
+  - {fileID: 8300000, guid: 4ddc231e02ab1bf409f7e31702b657d3, type: 3}
+  - {fileID: 8300000, guid: 47eba645fe5d084478c9c9d58105929a, type: 3}
+  - {fileID: 8300000, guid: 635f8279155bb6f4fba5fea06b58caf1, type: 3}
 --- !u!4 &536313945
 Transform:
   m_ObjectHideFlags: 0
